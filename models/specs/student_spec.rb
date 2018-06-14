@@ -1,6 +1,6 @@
 require("minitest/autorun")
 require_relative("../student.rb")
-require_relative("../../db/seeds.rb")
+# require_relative("../../db/seeds.rb")
 
 class TestStudent < MiniTest::Test
 
