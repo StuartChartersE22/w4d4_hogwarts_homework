@@ -25,6 +25,11 @@ class Student
 
 #SQL class methods
 
+  def self.delete_all()
+    sql = "DELETE FROM students"
+    SqlRunner.run(sql)
+  end
+
   def self.map_students(students)
     return students.map {|student| Student.new(student)}
   end
