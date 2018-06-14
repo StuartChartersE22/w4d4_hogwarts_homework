@@ -1,4 +1,5 @@
 require("minitest/autorun")
+require("pry")
 require_relative("../student.rb")
 # require_relative("../../db/seeds.rb")
 
@@ -39,3 +40,6 @@ class TestStudent < MiniTest::Test
   end
 
 end
+
+binding.pry
+nil
